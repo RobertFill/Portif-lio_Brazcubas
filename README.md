@@ -12,6 +12,7 @@
   <div style ="margin:50">
 <img width="1919" height="1079" alt="Captura de tela 2026-09-18 200455" src="https://github.com/user-attachments/assets/f0447cc8-c023-420c-9b12-76ca72debd7a" />
 <p>Uma pagina inicial de apresentação,onde foi ensinado a contruir páginas com display flex e outras layouts,junto com um cabeçário,e aprendendo dexar o conteúdo lado a lado.</p>
+<p>Contando um pouco sobre mim,tecnologias aprendidas, e criando ligação com outras páginas htmls.</p>
 <br>
 <br>
 <br>
