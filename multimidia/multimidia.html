@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video_youtube">
+        <h2>Vídeo do YouTube</h2>
+        <iframe
+          width="460"
+          height="315"
+          src="https://www.youtube.com/embed/LD34B0QsIZk?si=_Q2GvxP6eiiDRO5i"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+      <div class="video_local">
+        <h2>Vídeo local</h2>
+
+        <video controls width="400">
+          <source src="videoplayback.mp4" type="video/mp4" />
+          Seu navegador não suporta a execução de vídeos em HTML5.
+          <a href="videoplayback.mp4">Clique aqui para baixar o vídeo</a>.
+        </video>
+      </div>
+      <div class="audio_local">
+        <h2>Áudio local</h2>
+
+        <audio controls>
+          <source src="Reload Instrumental-.mp3" type="audio/mpeg" />
+          Seu navegador não suporta a reprodução de áudio em HTML5.
+          <a href="Reload%20Instrumental-.mp3"
+            >Clique aqui para baixar o arquivo de áudio</a
+          >.
+        </audio>
+      </div>
+</body>
+</html>

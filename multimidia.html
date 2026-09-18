@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portifólio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <h1>F/R/S.</h1>
+        </div>
+        <nav>
+          <a href="index.html">Início</a>
+          <a href="curriculo.html">Currículo</a>
+          <a href="formulario.html">Formulário</a>
+          <a href="multimidia.html">Multimídia</a>
+          <a href="grafico.html">Gráfico</a>
+        </nav>
+      </header>
+
+      <main class="mediaBox"> <!--formatação da multimidia-->
+        <h1 class="midia_title">Multimída</h1>
+        <div class="contentMedia">
+          <div class="video_youtube">
+            <h2>Vídeo do YouTube</h2> <!--vodeo do youtube-->
+            <iframe
+              width="460"
+              height="315"
+              src="https://www.youtube.com/embed/LD34B0QsIZk?si=_Q2GvxP6eiiDRO5i"
+              title="Tocador de vídeo do YouTube"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+
+          <div class="video_local"> <!--video local-->
+            <h2>Vídeo local</h2>
+            <video controls width="400">
+              <source src="./multimidia/videoplayback.mp4" type="video/mp4" />
+              Seu navegador não suporta a execução de vídeos em HTML5.
+              <a href="./multimidia/videoplayback.mp4"
+                >Clique aqui para baixar o vídeo</a
+              >.
+            </video>
+          </div>
+
+          <div class="audio_local"> <!--Audio local-->
+            <h2>Áudio local</h2>
+            <audio controls>
+              <source
+                src="./multimidia/reload-instrumental.mp3"
+                type="audio/mpeg"
+              />
+              Seu navegador não suporta a reprodução de áudio em HTML5.
+              <a href="./multimidia/reload-instrumental.mp3"
+                >Clique aqui para baixar o arquivo de áudio</a
+              >.
+            </audio>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; Feito por Filipe Robert Soares <br> Estudante de ADS na BrazCubas</p>
+      </footer>
+    </div>
+  </body>
+</html>
