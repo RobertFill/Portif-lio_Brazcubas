@@ -9,7 +9,7 @@
   <p>projeto da aula de <strong> Front-End  </strong>dividida em etapas para uma criação de protifólio</p>
 
   ### Prévia
-  <div>
+  <div style ="margin:50">
 <img width="1919" height="1079" alt="Captura de tela 2026-09-18 200455" src="https://github.com/user-attachments/assets/f0447cc8-c023-420c-9b12-76ca72debd7a" />
 <br>
 <img width="1919" height="1079" alt="Captura de tela 2026-09-18 200531" src="https://github.com/user-attachments/assets/dec4acd9-9632-4f6d-8fb1-29464c1c414b" />
