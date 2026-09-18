@@ -1,3 +1,3 @@
-#Projeto Portifólio básico
+# Projeto Portifólio básico
 
-##Feito na faculdade brazcubas
+## Feito na faculdade brazcubas
